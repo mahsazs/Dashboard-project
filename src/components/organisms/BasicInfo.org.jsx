@@ -27,6 +27,7 @@ export default function BasicInfo() {
               type="text"
               name="lastName"
               cls="w-[263px]"
+              required
             ></InputText>
           </div>
         </BasicInfoInput>
