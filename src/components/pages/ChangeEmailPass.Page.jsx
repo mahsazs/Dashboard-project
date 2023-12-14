@@ -6,7 +6,7 @@ import PrimaryBtn from "../atoms/PrimaryBtn";
 
 export default function ChangeEmailPass() {
   return (
-    <div className="flex flex-col gap-y-4 pt-6 ps-6 pe-6 gap-y-4 mt-6 w-[840px] h-[489px] border rounded-lg shadow-md ">
+    <div className="flex flex-col gap-y-4 pt-6 ps-6 pe-6 mt-6 w-[840px] h-[489px] border rounded-lg shadow-md ">
       <GeneralSettingsHeader
         title="Change your password"
         content="Your current Primary email address is "

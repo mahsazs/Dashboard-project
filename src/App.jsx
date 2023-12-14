@@ -11,23 +11,16 @@ import {
   useRecoilState,
   useRecoilValue,
 } from "recoil";
+import Layout from "./components/templates/Layout";
 
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <div>Home Page</div>,
+    element: <Layout />,
   },
   {
     path: "/generalSettings",
     element: <GeneralSettingsPage />,
-  },
-  {
-    path: "/generalSettingsEmail",
-    element: <GeneralSettingsEmail />,
-  },
-  {
-    path: "/changeEmailPassword",
-    element: <ChangeEmailPass />,
   },
 ]);
 
@@ -35,7 +28,9 @@ function App() {
   return (
     <>
       <RecoilRoot>
-        <RouterProvider router={router} />
+        
+          <RouterProvider router={router} />
+      
       </RecoilRoot>
     </>
   );

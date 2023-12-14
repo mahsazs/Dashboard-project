@@ -4,7 +4,9 @@ import InputText from "../atoms/InputText";
 import BasicInfoInput from "../molecules/BasicInfoInput.mol";
 import InputSelect from "../molecules/InputSelect.mol";
 import PrimaryBtn from "../atoms/PrimaryBtn";
-import QuIcon from "../atoms/QuIcon";
+// import QuIcon from "@/components/atoms/QuIcon";
+import QuIcon from "@/components/atoms/QuIcon";
+// import QuIcon from "@";
 
 export default function BasicInfo() {
   return (
@@ -27,6 +29,7 @@ export default function BasicInfo() {
               type="text"
               name="lastName"
               cls="w-[263px]"
+              required
             ></InputText>
           </div>
         </BasicInfoInput>
