@@ -4,8 +4,8 @@ import { SvgIcon } from "@mui/material";
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import image from '../../assets/imgs/ArrowIcon.png'
 
-export default function ArrowDropDownIcon(){
+export default function ArrowDropDownIcon({cls}){
     return(
-        <img src={image}></img>
+        <KeyboardArrowDownIcon  className={cls}/>
     )
 } 
